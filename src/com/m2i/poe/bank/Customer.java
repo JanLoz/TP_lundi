@@ -1,5 +1,5 @@
 package com.m2i.poe.bank;
-
+/*
 public class Customer {
  int id;
  String firsName;
@@ -10,3 +10,4 @@ public class Customer {
 
 }
 
+*/

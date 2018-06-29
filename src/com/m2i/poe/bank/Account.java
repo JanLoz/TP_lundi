@@ -1,5 +1,5 @@
 package com.m2i.poe.bank;
-
+/*
 import java.util.Date;
 import java.util.ArrayList;
 
@@ -90,7 +90,9 @@ public class Account {
     }
 
     public void transaction() {
-        if (getSolde()>transaction)
+        if (getSolde()>transaction){
+        }
+
     }
 
-}
+    */

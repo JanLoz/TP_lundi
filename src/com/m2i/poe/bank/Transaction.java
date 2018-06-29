@@ -1,5 +1,5 @@
 package com.m2i.poe.bank;
-
+/*
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -15,8 +15,9 @@ public class Transaction {
         this.amount=amount;
     }
 
-    pubic String toString() {
+    public String toString() {
         return ("id" + "Date" + "amount")
     }
 
 }
+*/
