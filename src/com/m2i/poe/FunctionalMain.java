@@ -1,4 +1,4 @@
-package com.m2i;
+package com.m2i.poe;
 
 import java.util.ArrayList;
 import java.util.Arrays;
