@@ -52,6 +52,7 @@ public class FunctionalMain  {
         //Reduce  , la reduction doit abaisse de 1, ex sume, addition
         double i=l.stream ().mapToDouble ( x-> x ).sum (); // mapToDouble convert a int into double
         i=l.stream().mapToDouble(x-> x).reduce ( 0, (x,y) -> x+y );
+        System.out.println(i);
 
     }
 
