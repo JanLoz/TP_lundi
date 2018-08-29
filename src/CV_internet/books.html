@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="js.css">
+    <script language="JavaScript">
+
+    function manageForm() {
+    var title=document.forms["myForm"].elements["titleBox"].value;
+    var price=document.forms["myForm"].elements["priceBox"].value;
+    alert(title+ " "+ price);
+    }
+
+    function checkTitle() {
+    var title=document.forms["myForm"].elements["titleBox"].value;
+        if (title.length==0) {
+            document.getElementById("titleError").style.visibility="visible";
+        }
+        else {
+            document.getElementById("titleError").style.visibility="hidden";
+        }
+    }
+
+    function checkPrice() {
+            var price = document.forms["myForm"].elements["priceBox"].value;
+            if(price.length == 0) {
+                document.getElementById("priceError").style.visibility="visible";
+            }
+            else {
+                document.getElementById("priceError").style.visibility="hidden";
+            }
+            if(isNaN(price)) {
+              document.getElementById("priceFormatError").style.visibility="visible";
+            }
+            else  {
+                document.getElementByPrice("priceFormatError").style.visibility="hidden";
+            }
+        }
+
+</script>
+</head>
+
+<body bgcolor="#ffffe6">
+    <p>Please enter a title a title and price:</p>
+    <form name="myForm">
+        Title : <input type="text" name="titleBox" onblur="checkTitle()"/>* 
+        <span id="titleError">Title compulsotory</span>
+        <br/>
+        Price : <input type="text" name="priceBox" onblur="checkPrice()"/>* 
+        <span id="container">
+            <span id="priceError">Price compulsotory</span>
+            <span id="priceFormatError">Le price must to be a number</span>
+        </span>
+    <br/>
+        <input type="button" value="OK" name="okButton" onclick="manageForm()"/>
+    </form>
+
+<TABLE  width="450" border="1">
+    <tr>  <Font face="Castellar"> <Font size="+3"> Book Table  </Font></Font>
+
+<TD>
+    Id
+</TD>
+
+<TD>
+       Title
+</TD>
+
+<TD>
+        Author
+</TD>
+
+<TD>
+        Price
+    </TD>
+
+</tr>
+
+    <tr>
+        <TD>
+            1
+        </TD>
+
+        <TD>
+
+        </TD>
+
+        <TD>
+
+        </TD>
+
+        <TD>
+
+        </TD>
+
+    </tr>
+    <tr>
+        <TD>
+            2
+        </TD>
+
+        <TD>
+
+        </TD>
+
+        <TD>
+
+        </TD>
+
+        <TD>
+
+        </TD>
+
+    </tr>
+    <tr>
+        <TD>
+            3
+        </TD>
+
+        <TD>
+
+        </TD>
+
+        <TD>
+
+        </TD>
+
+        <TD>
+
+        </TD>
+
+    </tr>
+
+
+</TABLE>
+
+<img src="https://cdn3.educacion2.com/wp-content/uploads/El-mejor-libro.jpg" width="200" height="80">
+
+</body>
+</html>

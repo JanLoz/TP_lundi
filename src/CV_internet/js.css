@@ -1,0 +1,8 @@
+#titleError, #priceError, #priceFormatError {
+  visibility:hidden;
+  color: #ff0000;
+}
+
+#container {
+    position: relative;
+}

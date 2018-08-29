@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <script lang="JavaScript" src="mylibrary.js"/>
+    <script language="JavaScript">
+    var red=true;
+        function hello () {
+      if(red) {
+        document.bgColor='blue';
+        red=false;
+       }
+        else {
+        document.bgColor='red';
+        red=true;
+        }
+        }
+
+ function manageForm() {
+            var tile=document.forms["myForm"].elements["titleBox"].value;
+            var tile=document.forms["myForm"].elements["priceBox"].value;
+            alert(title+ ""+ price);
+    }
+
+        var isVisible=true;
+        function toggleVisible() {
+            element = document.getElementsByClassName("hello")[0];
+            isVisible = !isVisible;
+            if(isVisible) {
+                element.style.visibility = "visible";
+            }
+            else {
+                element.style.visibility = "hidden";
+            }
+        }
+
+        var isEnabled=true;
+        function toggleEnabled() {
+            element = document.getElementById("myBtn");
+            isEnabled = !isEnabled;
+            element.style.disabled = true;
+        }
+    
+    </script>
+</head>
+<body>
+
+    hello JavaScript
+    <input type="button" value="OK"
+           onclick="hello()">
+
+<script lang="Javascript">
+    document.write(navigator.appCodeName);
+    document.write ("<br/>");
+    var tab = new Array(1,2,3,4,5,6,7,8,9,10);
+    display(tab);
+
+    document.write(sum(tab)+"<br/>");
+    document.write(avg(tab)+"<br/>");
+    document.write(max(tab)+"<br/>");
+    document.write(isPrimeNumber(tab[4])+"<br/>");
+    document.write(getNumberPrime(tab)+"<br/>");
+
+  var res= tab.map(i=>i+1+ ""); //filtre et maps
+    display (res);  
+
+</script>
+   
+<form name="myForm">
+Title : <input type="text" name="titleBox"> onblur="checkTitle()">*
+<span id="titleError">Compulsotory title</span>
+<br/>
+
+Price : <input type="text" name="priceBox"/><br/>
+<input type="button" value="OK" name="okButton" onclick="manageForm()"/>
+</form>
+
+
+
+ </body>
+</html>
