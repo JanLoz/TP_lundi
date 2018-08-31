@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bd1d1e8-e6e1-4ce9-9cab-abfd45294fcc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Formation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_3_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1bd1d1e8-e6e1-4ce9-9cab-abfd45294fcc" name="Default" comment="v2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_lundi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_lundi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JPAMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JPAMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/web/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/web/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JPAMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JPAMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/m2i/poe/rest/HelloWorldRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/m2i/poe/rest/HelloWorldRest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/m2i/poe/shop/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/m2i/poe/shop/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/m2i/poe/shop/BookSQLRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/m2i/poe/shop/BookSQLRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/m2i/poe/shop/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/m2i/poe/shop/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/m2i/poe/shop/IBookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/m2i/poe/shop/IBookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/m2i/poe/rest" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/m2i/poe/rest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/m2i/poe/shop" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/m2i/poe/shop" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -147,9 +124,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="707" />
-    <option name="y" value="37" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="417" />
+    <option name="y" value="-24" />
     <option name="width" value="1665" />
     <option name="height" value="1039" />
   </component>
@@ -209,7 +186,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/www" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2045977" />
@@ -369,6 +346,14 @@
       <option name="presentableId" value="Default" />
       <updated>1535701049268</updated>
     </task>
+    <task id="LOCAL-00001" summary="v2.0">
+      <created>1535707404401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535707404401</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -413,7 +398,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="566" y="30" width="1332" height="831" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="8" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -424,13 +410,13 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.26676178" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.2641243" />
+      <window_info anchor="bottom" id="Version Control" order="0" visible="true" weight="0.32909605" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3294025" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32952926" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25157234" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2147651" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info id="Learn" order="2" weight="0.3294025" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
@@ -476,8 +462,38 @@
       <window_info id="Favorites" order="4" side_tool="true" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.0" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/META-INF/persistence.xml">
