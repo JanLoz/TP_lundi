@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TP_lundi" />
+        <module name="FormationRest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TP_lundi" target="10" />
+      <module name="FormationRest" target="10" />
     </bytecodeTargetLevel>
   </component>
 </project>

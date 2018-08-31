@@ -1,0 +1,318 @@
+@startuml
+
+title __SHOP's Class Diagram__\n
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class Author {
+            - id : int
+            - firstname : String
+            - lastname : String
+            + Author()
+            + Author()
+            + getId()
+            + setId()
+            + getFirstname()
+            + setFirstname()
+            + getLastname()
+            + setLastname()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class Book {
+            - id : String
+            - title : String
+            - genre : String
+            - author : String
+            - pubyear : String
+            - nbPage : String
+            - getNetPrice : double
+            + Book()
+            + Book()
+            + showBook()
+            + toString()
+            + getId()
+            + getTitle()
+            + getGenre()
+            + getAuthor()
+            + getPubyear()
+            + getNbPage()
+            + getNetPrice()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class BookRepository {
+            ~ bookList : List<Book>
+            + load()
+            + getAll()
+            + getById()
+            + getById()
+            + getByTitle()
+            + getByPrice()
+            + getByNpages()
+            + getByPublisher()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class CSVsample {
+            {static} + main()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class Cart {
+            - getTotNetPrice : double
+            - mediaList : List<IMedia>
+            - cartRowList : List<CartRow>
+            + getMediaList()
+            + getCartRowList()
+            + getTotNetPrice()
+            + add()
+            - mediaExists()
+            + remove()
+            + validate()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class CartRow {
+            - quantity : int
+            - cartRowList : List<CartRow>
+            + CartRow()
+            + CartRow()
+            + increment()
+            + decrement()
+            + getMedia()
+            + setMedia()
+            + getQuantity()
+            + setQuantity()
+            + getCartRowList()
+            + setCartRowList()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class Cd {
+            - id : String
+            - title : String
+            - track : int
+            - price : double
+            - getNetPrice : double
+            + Cd()
+            + Cd()
+            + toString()
+            + getNetPrice()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        interface IBookRepository {
+            {abstract} + load()
+            {abstract} + getAll()
+            {abstract} + getById()
+            {abstract} + getById()
+            {abstract} + getByTitle()
+            {abstract} + getByPrice()
+            {abstract} + getByNpages()
+            {abstract} + getByPublisher()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        interface IMedia {
+            {abstract} + toString()
+            {abstract} + getId()
+            {abstract} + setId()
+            {abstract} + setId()
+            {abstract} + setId()
+            {abstract} + getTitle()
+            {abstract} + setTitle()
+            {abstract} + getPrice()
+            {abstract} + setPrice()
+            {abstract} + getTaxe()
+            {abstract} + setTaxe()
+            {abstract} + getNetPrice()
+            {abstract} + getPublisher()
+            {abstract} + setPublisher()
+            {abstract} + getAuthorList()
+            {abstract} + setAuthorList()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class Mainshop {
+            {static} + main()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        abstract class Media {
+            - id : int
+            - title : String
+            - price : double
+            - taxe : double
+            - authorList : ArrayList<Author>
+            + Media()
+            + Media()
+            + toString()
+            + getId()
+            + setId()
+            + getTitle()
+            + setTitle()
+            + getPrice()
+            + setPrice()
+            + getTaxe()
+            + setTaxe()
+            + getPublisher()
+            + setPublisher()
+            + getAuthorList()
+            + setAuthorList()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class MediaException {
+            + MediaException()
+            + MediaException()
+        }
+      }
+    }
+  }
+  
+
+  package  {
+    abstract class PrintStreamOrWriter {
+        - PrintStreamOrWriter()
+        {abstract} ~ lock()
+        {abstract} ~ println()
+    }
+  }
+  
+
+  package  {
+    class SentinelHolder {
+        {static} + STACK_TRACE_ELEMENT_SENTINEL : StackTraceElement
+        {static} + STACK_TRACE_SENTINEL : StackTraceElement[]
+        - SentinelHolder()
+    }
+  }
+  
+
+  package  {
+    class WrappedPrintStream {
+        - printStream : PrintStream
+        ~ WrappedPrintStream()
+        ~ lock()
+        ~ println()
+    }
+  }
+  
+
+  package  {
+    class WrappedPrintWriter {
+        - printWriter : PrintWriter
+        ~ WrappedPrintWriter()
+        ~ lock()
+        ~ println()
+    }
+  }
+  
+
+  package  {
+    package com.m2i.poe {
+      package com.m2i.poe.shop {
+        class Publisher {
+            - name : String
+            - id : int
+            + Publisher()
+            + Publisher()
+            + getName()
+            + setName()
+            + toString()
+            + getId()
+            + setId()
+        }
+      }
+    }
+  }
+  
+
+  Book -up-|> Media
+  BookRepository -up-|> IBookRepository
+  CartRow o-- IMedia : media
+  Cd -up-|> Media
+  Media -up-|> IMedia
+  Media o-- Publisher : publisher
+  MediaException +-down- PrintStreamOrWriter
+  MediaException +-down- SentinelHolder
+  MediaException +-down- WrappedPrintStream
+  MediaException +-down- WrappedPrintWriter
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
