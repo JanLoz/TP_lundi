@@ -379,7 +379,7 @@
         <item itemvalue="TestNG.MediaTests" />
         <item itemvalue="Application.JPAMain" />
         <item itemvalue="Application.FunctionalMain" />
-        <item itemvalue="TestNG.MediaTests" />
+        <item itemvalue="Application.Mainshop" />
       </list>
     </recent_temporary>
   </component>
