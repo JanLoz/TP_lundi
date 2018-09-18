@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Login user</h2>
+    <form (ngSubmit)="onSubmit()" #userForm="ngForm">
+       
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name"
+       required
+       [(ngModel)]="model.name" name="name">
+      TODO: remove this: {{model.name}}
+      </div>
+
+      <div class="form-group">
+        <label for="lastname">Last Name</label>
+        <input type="text" class="form-control" id="lastname">
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+      <button type="button" class="btn btn-default" (click)="newUser()">New User</button>
+      <button type="submit" class="btn btn-success" [disabled]="!userForm.form.valid">Submit</button>
+
+    </form>
+</div>

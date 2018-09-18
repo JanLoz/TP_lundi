@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="/purl.js">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<p>media <span id="Book"></span>  id <span id="123"></span>  </p>
+<p>title<span id="Java"></span> price <span id="10"></span> </p>
+
+<script>
+function jsoncallback(data){
+$("#id").text(data.id);
+$("#title").text(data.title);
+$("#price").text(data.price);
+}
+$(document).ready(function() {
+  $.getJSON("http://localhost:8080/FormationRest/rest/hello/book/id=123");
+});
+</script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>BD</title>
+</head>
+
+<body>
+{"type":"book","id":6,"price":9.0,"title":"El retrato de Dorian Gray","nbPage":0,"taxe":0.2}
+
+
+</body>
+</html>
